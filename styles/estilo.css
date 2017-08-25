@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "KozukaGothicPro-Bold";
+    src: url('kozgopro-bold.otf');
+}
+@font-face{
+    font-family: "KozukaGothicPro-Medium";
+    src: url('kozgopro-medium.otf');
+}
+@font-face{
+    font-family: "KozukaGothicPro-Light";
+    src: url('kozgopro-light.otf');
+}
+@font-face{
+    font-family: "KozukaGothicPro-ExtraLight";
+    src: url('kozgopro-extralight.otf');
+}
+
+
+*{
+	font-family: "KozukaGothicPro-Light";
+	color: #ffffff;
+}
+
+.unselectable {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	user-drag: none; 
+	-webkit-user-drag: none;
+	pointer-events: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+margin: 0px;
+overflow: hidden;
+height:100vh;
+width:100vw;
+}
+
+option{
+	color: #106492;
+}
+
+.catalogo
+{
+	opacity: 0;
+}
